@@ -1,0 +1,29 @@
+[1130/173358.273:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1130/174516.730:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1130/220709.457:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1130/223551.013:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1130/225950.156:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1130/232212.251:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1130/233442.329:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/011725.362:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/014102.222:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/080141.648:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/111157.695:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/141623.607:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/145106.290:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/153443.756:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/164755.200:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/173159.885:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/193505.906:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/195555.823:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/223706.844:ERROR:process_info.cc(359)] UncheckedAllocate
+[1201/223706.879:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\jojo\AppData\Local\Temp\scoped_dir19380_1634680431\Crashpad\attachments\f22dd7db-07e4-435f-929b-31a2d9e7ed39: The system cannot find the path specified. (0x3)
+[1201/224043.613:ERROR:process_info.cc(359)] UncheckedAllocate
+[1201/224043.640:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\jojo\AppData\Local\Temp\scoped_dir1944_1613154314\Crashpad\attachments\371b4fa0-26dd-4927-a843-0e8381a7bc7e: The system cannot find the path specified. (0x3)
+[1201/224043.649:ERROR:process_info.cc(359)] UncheckedAllocate
+[1201/225740.493:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1201/235018.598:ERROR:process_info.cc(359)] UncheckedAllocate
+[1201/235018.662:ERROR:process_info.cc(359)] UncheckedAllocate
+[1201/235018.781:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\jojo\AppData\Local\Temp\scoped_dir14908_1639287080\Crashpad\attachments\750d512c-f9d3-4a5a-bed5-d116fc06ed26: The system cannot find the path specified. (0x3)
+[1201/235020.329:ERROR:file_io_win.cc(162)] CreateFile C:\Users\jojo\AppData\Local\Temp\scoped_dir14908_1639287080\Crashpad\settings.dat: The system cannot find the file specified. (0x2)
+[1201/235020.330:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)

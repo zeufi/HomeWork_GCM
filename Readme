@@ -1,0 +1,20 @@
+# run a specific method from a module
+Go on the path where is your module
+pytest -v -s ModuleName.py::NameofMethod
+
+# Run methods from differents module which have a keyword login
+py.tes -k longin -v
+
+# Run all test in a module
+Go on the path where is your module
+pytest -v -s ModuleName.py
+
+# Run test suite (of all modules) in a path
+pytest -v -s path folder of your test suite
+
+# To generate report in your work folder
+pytest -v -s --html=Reportname.html --self-contained-html ModuleName.py
+
+# To another folder
+pytest -v -s --html=path\Reportname.html --self-contained-html ModuleName.py
+
