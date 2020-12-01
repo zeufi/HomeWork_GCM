@@ -3,11 +3,16 @@ from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
 import sys
+import logging
 sys.path.append(r'C:/Users/jojo/Desktop/Test_Tecnico_GCM')
 from POM.SearchPage import Page1
 
 
 class TestLogin:
+
+    logging.basicConfig(filename=r"CC:\Users\jojo\Desktop\Test_Tecnico_GCM\Logs\log_file.txt",
+                        format='%(asctime)s: %(levelname)s: %(message)s',
+                        datefmt='%m/%d/%y %I:%M:%S:%p', level=logging.DEBUG)
 
     baseurl = "https://www.autohero.com/it/search/"
     driver = webdriver.Chrome(ChromeDriverManager().install())
