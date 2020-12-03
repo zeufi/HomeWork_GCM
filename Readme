@@ -2,8 +2,11 @@
 Go on the path where is your module
 pytest -v -s ModuleName.py::NameofMethod
 
-# Run methods from differents module which have a keyword login
+# Run methods from differents module
+1.which have a keyword login
 py.tes -k longin -v
+2.which have a mark login (On the top of those methods we to add a decorator @pytest.mark.login)
+py.test -m login
 
 # Run all test in a module
 Go on the path where is your module
@@ -18,3 +21,6 @@ pytest -v -s --html=Reportname.html --self-contained-html ModuleName.py
 # To another folder
 pytest -v -s --html=path\Reportname.html --self-contained-html ModuleName.py
 
+# Run tests in paralell on the same browser
+To the previous command we just need to add: -n 5
+5 represent the number of methods which should be run in paralell.
